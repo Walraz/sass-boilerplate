@@ -1,0 +1,14 @@
+{
+  "name": "sass-boilerplate",
+  "version": "1.0.0",
+  "main": "index.html",
+  "scripts": {
+    "dev": "node-sass -w ./src/main.scss ./test/style.css & browser-sync start -s test -f test"
+  },
+  "repository": {},
+  "author": "Rasmus Hallström",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.5.0"
+  }
+}
